@@ -1,0 +1,330 @@
+DNS Server log file creation at 4/18/2021 11:49:29 PM
+Log file wrap at 4/18/2021 11:49:29 PM
+
+Message logging key (for packets - other items use a subset of these fields):
+	Field #  Information         Values
+	-------  -----------         ------
+	   1     Date
+	   2     Time
+	   3     Thread ID
+	   4     Context
+	   5     Internal packet identifier
+	   6     UDP/TCP indicator
+	   7     Send/Receive indicator
+	   8     Remote IP
+	   9     Xid (hex)
+	  10     Query/Response      R = Response
+	                             blank = Query
+	  11     Opcode              Q = Standard Query
+	                             N = Notify
+	                             U = Update
+	                             ? = Unknown
+	  12     [ Flags (hex)
+	  13     Flags (char codes)  A = Authoritative Answer
+	                             T = Truncated Response
+	                             D = Recursion Desired
+	                             R = Recursion Available
+	  14     ResponseCode ]
+	  15     Question Type
+	  16     Question Name
+
+4/18/2021 11:49:29 PM 0828 PACKET  00000085E4578410 UDP Rcv 10.120.0.53     401e R Q [8281   DR SERVFAIL] A      (8)1e247cf6(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:29 PM 0828 PACKET  Response packet 00000085E4578410 does not match any outstanding query
+4/18/2021 11:49:30 PM 0828 PACKET  00000085E450BA90 UDP Rcv 10.11.11.30     9c54   Q [0001   D   NOERROR] SRV    (5)_http(4)_tcp(2)us(7)archive(6)ubuntu(3)com(0)
+
+4/18/2021 11:49:30 PM 0828 PACKET  00000085E450BA90 UDP Snd 10.11.11.30     9c54 R Q [8081   DR  NOERROR] SRV    (5)_http(4)_tcp(2)us(7)archive(6)ubuntu(3)com(0)
+
+4/18/2021 11:49:30 PM 0828 PACKET  00000085E4A6B8F0 UDP Rcv 10.11.11.30     9933   Q [0001   D   NOERROR] A      (7)kazooie(9)canonical(3)com(0)
+
+4/18/2021 11:49:30 PM 0828 PACKET  00000085E4A6B8F0 UDP Snd 10.11.11.30     9933 R Q [8081   DR  NOERROR] A      (7)kazooie(9)canonical(3)com(0)
+
+4/18/2021 11:49:30 PM 0824 PACKET  00000085E4578410 UDP Rcv 10.11.11.30     890e   Q [0001   D   NOERROR] AAAA   (7)kazooie(9)canonical(3)com(0)
+
+4/18/2021 11:49:30 PM 0824 PACKET  00000085E4578410 UDP Snd 10.11.11.30     890e R Q [8081   DR  NOERROR] AAAA   (7)kazooie(9)canonical(3)com(0)
+
+4/18/2021 11:49:30 PM 05D0 PACKET  00000085E3F12B40 UDP Snd 127.0.0.1       ff4e R Q [8281   DR SERVFAIL] A      (8)51ed65fa(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:30 PM 0824 PACKET  00000085E39978F0 UDP Rcv 10.120.0.53     8b4d R Q [8281   DR SERVFAIL] A      (8)51ed65fa(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:30 PM 0824 PACKET  Response packet 00000085E39978F0 does not match any outstanding query
+4/18/2021 11:49:31 PM 0824 PACKET  00000085E36FF070 UDP Rcv 127.0.0.1       3a58   Q [0001   D   NOERROR] A      (8)3cbeddbe(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:31 PM 0824 PACKET  00000085E488B850 UDP Snd 10.120.0.53     24a2   Q [0001   D   NOERROR] A      (8)3cbeddbe(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:31 PM 0824 PACKET  00000085E3813600 UDP Rcv 127.0.0.1       234b   Q [0001   D   NOERROR] A      (8)4a18d5ba(4)poop(10)ndgnetlabs(3)com(0)
+
+4/18/2021 11:49:31 PM 0824 PACKET  00000085E4A93850 UDP Snd 10.120.0.53     457b   Q [0001   D   NOERROR] A      (8)4a18d5ba(4)poop(10)ndgnetlabs(3)com(0)
+
+4/18/2021 11:49:32 PM 0824 PACKET  00000085E39978F0 UDP Rcv 127.0.0.1       3a58   Q [0001   D   NOERROR] A      (8)3cbeddbe(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:32 PM 0824 PACKET  00000085E4578410 UDP Rcv 127.0.0.1       234b   Q [0001   D   NOERROR] A      (8)4a18d5ba(4)poop(10)ndgnetlabs(3)com(0)
+
+4/18/2021 11:49:33 PM 0824 PACKET  00000085E37CB1C0 UDP Rcv 127.0.0.1       3a58   Q [0001   D   NOERROR] A      (8)3cbeddbe(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:33 PM 0824 PACKET  00000085E39978F0 UDP Rcv 127.0.0.1       234b   Q [0001   D   NOERROR] A      (8)4a18d5ba(4)poop(10)ndgnetlabs(3)com(0)
+
+4/18/2021 11:49:34 PM 0824 PACKET  00000085E450BA90 UDP Rcv 10.11.11.8      d0df   Q [0001   D   NOERROR] PTR    (3)133(3)232(3)224(2)10(7)in-addr(4)arpa(0)
+
+4/18/2021 11:49:34 PM 0824 PACKET  00000085E3F2D8F0 UDP Snd 10.120.0.53     ae66   Q [0001   D   NOERROR] PTR    (3)133(3)232(3)224(2)10(7)in-addr(4)arpa(0)
+
+4/18/2021 11:49:34 PM 0824 PACKET  00000085E2694BB0 UDP Rcv 10.120.0.53     ae66 R Q [8385 A DR NXDOMAIN] PTR    (3)133(3)232(3)224(2)10(7)in-addr(4)arpa(0)
+
+4/18/2021 11:49:34 PM 0824 PACKET  00000085E450BA90 UDP Snd 10.11.11.8      d0df R Q [8381   DR NXDOMAIN] PTR    (3)133(3)232(3)224(2)10(7)in-addr(4)arpa(0)
+
+4/18/2021 11:49:35 PM 05D0 PACKET  00000085E36FF070 UDP Snd 127.0.0.1       3a58 R Q [8281   DR SERVFAIL] A      (8)3cbeddbe(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:35 PM 0824 PACKET  00000085E4578410 UDP Rcv 127.0.0.1       234b   Q [0001   D   NOERROR] A      (8)4a18d5ba(4)poop(10)ndgnetlabs(3)com(0)
+
+4/18/2021 11:49:36 PM 05D0 PACKET  00000085E3813600 UDP Snd 127.0.0.1       234b R Q [8281   DR SERVFAIL] A      (8)4a18d5ba(4)poop(10)ndgnetlabs(3)com(0)
+
+4/18/2021 11:49:37 PM 0824 PACKET  00000085E37CB1C0 UDP Rcv 127.0.0.1       a704   Q [0001   D   NOERROR] A      (8)1e247cf6(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:37 PM 0824 PACKET  00000085E4A93850 UDP Snd 10.120.0.53     5c4c   Q [0001   D   NOERROR] A      (8)1e247cf6(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:37 PM 0824 PACKET  00000085E36FF070 UDP Rcv 127.0.0.1       35b6   Q [0001   D   NOERROR] A      (3)red(7)rphaley(3)com(0)
+
+4/18/2021 11:49:37 PM 0824 PACKET  00000085E488B850 UDP Snd 10.120.0.53     7a3c   Q [0001   D   NOERROR] A      (3)red(7)rphaley(3)com(0)
+
+4/18/2021 11:49:37 PM 0824 PACKET  00000085E38D48F0 UDP Rcv 10.120.0.53     7a3c R Q [8081   DR  NOERROR] A      (3)red(7)rphaley(3)com(0)
+
+4/18/2021 11:49:37 PM 0824 PACKET  00000085E36FF070 UDP Snd 127.0.0.1       35b6 R Q [8081   DR  NOERROR] A      (3)red(7)rphaley(3)com(0)
+
+4/18/2021 11:49:38 PM 0824 PACKET  00000085E3813600 UDP Rcv 127.0.0.1       a704   Q [0001   D   NOERROR] A      (8)1e247cf6(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:39 PM 0824 PACKET  00000085E4578410 UDP Rcv 127.0.0.1       499a   Q [0001   D   NOERROR] A      (8)51ed65fa(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:39 PM 0824 PACKET  00000085E36FF070 UDP Snd 10.120.0.53     4521   Q [0001   D   NOERROR] A      (8)51ed65fa(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:39 PM 0824 PACKET  00000085E38D48F0 UDP Rcv 127.0.0.1       a704   Q [0001   D   NOERROR] A      (8)1e247cf6(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:40 PM 0824 PACKET  00000085E32124B0 UDP Rcv 10.120.0.53     457b R Q [8281   DR SERVFAIL] A      (8)4a18d5ba(4)poop(10)ndgnetlabs(3)com(0)
+
+4/18/2021 11:49:40 PM 0824 PACKET  Response packet 00000085E32124B0 does not match any outstanding query
+4/18/2021 11:49:40 PM 0824 PACKET  00000085E3813600 UDP Rcv 127.0.0.1       499a   Q [0001   D   NOERROR] A      (8)51ed65fa(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:40 PM 0824 PACKET  00000085E4A6B8F0 UDP Rcv 10.11.11.30     706b   Q [0001   D   NOERROR] A      (1)0(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:40 PM 0824 PACKET  00000085E450BA90 UDP Snd 10.120.0.53     d0cf   Q [0001   D   NOERROR] A      (1)0(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:40 PM 0828 PACKET  00000085E39978F0 UDP Rcv 10.11.11.30     9caf   Q [0001   D   NOERROR] AAAA   (1)0(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:40 PM 0828 PACKET  00000085E29CE020 UDP Snd 10.120.0.53     13c6   Q [0001   D   NOERROR] AAAA   (1)0(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:40 PM 0828 PACKET  00000085E382CCE0 UDP Rcv 10.120.0.53     d0cf R Q [8081   DR  NOERROR] A      (1)0(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:40 PM 0828 PACKET  00000085E4A6B8F0 UDP Snd 10.11.11.30     706b R Q [8081   DR  NOERROR] A      (1)0(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:40 PM 0828 PACKET  00000085E3711310 UDP Rcv 10.120.0.53     13c6 R Q [8081   DR  NOERROR] AAAA   (1)0(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:40 PM 0828 PACKET  00000085E39978F0 UDP Snd 10.11.11.30     9caf R Q [8081   DR  NOERROR] AAAA   (1)0(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:40 PM 05D0 PACKET  00000085E37CB1C0 UDP Snd 127.0.0.1       a704 R Q [8281   DR SERVFAIL] A      (8)1e247cf6(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:41 PM 0828 PACKET  00000085E488B850 UDP Rcv 127.0.0.1       499a   Q [0001   D   NOERROR] A      (8)51ed65fa(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:41 PM 0828 PACKET  00000085E3813600 UDP Rcv 10.11.11.30     d9bf   Q [0001   D   NOERROR] A      (1)1(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:41 PM 0828 PACKET  00000085E4A93850 UDP Snd 10.120.0.53     b3fa   Q [0001   D   NOERROR] A      (1)1(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:41 PM 0824 PACKET  00000085E3F2D8F0 UDP Rcv 10.11.11.30     147b   Q [0001   D   NOERROR] AAAA   (1)1(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:41 PM 0824 PACKET  00000085E39978F0 UDP Snd 10.120.0.53     dc51   Q [0001   D   NOERROR] AAAA   (1)1(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:41 PM 0824 PACKET  00000085E48B4E80 UDP Rcv 10.120.0.53     dc51 R Q [8081   DR  NOERROR] AAAA   (1)1(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:41 PM 0824 PACKET  00000085E3F2D8F0 UDP Snd 10.11.11.30     147b R Q [8081   DR  NOERROR] AAAA   (1)1(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:41 PM 0824 PACKET  00000085E32E2020 UDP Rcv 10.120.0.53     b3fa R Q [8081   DR  NOERROR] A      (1)1(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:41 PM 0824 PACKET  00000085E3813600 UDP Snd 10.11.11.30     d9bf R Q [8081   DR  NOERROR] A      (1)1(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:41 PM 0824 PACKET  00000085E456D5B0 UDP Rcv 10.120.0.53     24a2 R Q [8281   DR SERVFAIL] A      (8)3cbeddbe(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:41 PM 0824 PACKET  Response packet 00000085E456D5B0 does not match any outstanding query
+4/18/2021 11:49:42 PM 0824 PACKET  00000085E488B850 UDP Rcv 10.11.11.30     8a65   Q [0001   D   NOERROR] A      (1)2(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:42 PM 0824 PACKET  00000085E3813600 UDP Snd 10.120.0.53     a515   Q [0001   D   NOERROR] A      (1)2(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:42 PM 0828 PACKET  00000085E3711310 UDP Rcv 10.11.11.30     1b8e   Q [0001   D   NOERROR] AAAA   (1)2(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:42 PM 0828 PACKET  00000085E3F2D8F0 UDP Snd 10.120.0.53     7b77   Q [0001   D   NOERROR] AAAA   (1)2(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:42 PM 0824 PACKET  00000085E3A369F0 UDP Rcv 10.120.0.53     a515 R Q [8081   DR  NOERROR] A      (1)2(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:42 PM 0824 PACKET  00000085E488B850 UDP Snd 10.11.11.30     8a65 R Q [8081   DR  NOERROR] A      (1)2(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:42 PM 0828 PACKET  00000085E2ED3D30 UDP Rcv 10.120.0.53     7b77 R Q [8081   DR  NOERROR] AAAA   (1)2(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:42 PM 0828 PACKET  00000085E3711310 UDP Snd 10.11.11.30     1b8e R Q [8081   DR  NOERROR] AAAA   (1)2(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:42 PM 05D0 PACKET  00000085E4578410 UDP Snd 127.0.0.1       499a R Q [8281   DR SERVFAIL] A      (8)51ed65fa(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:43 PM 0828 PACKET  00000085E456D5B0 UDP Rcv 10.11.11.30     257e   Q [0001   D   NOERROR] A      (1)3(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:43 PM 0828 PACKET  00000085E36FF070 UDP Snd 10.120.0.53     81f7   Q [0001   D   NOERROR] A      (1)3(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:43 PM 0824 PACKET  00000085E4A93850 UDP Rcv 10.11.11.30     249b   Q [0001   D   NOERROR] AAAA   (1)3(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:43 PM 0824 PACKET  00000085E3711310 UDP Snd 10.120.0.53     221b   Q [0001   D   NOERROR] AAAA   (1)3(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:43 PM 0824 PACKET  00000085E2667520 UDP Rcv 10.120.0.53     221b R Q [8081   DR  NOERROR] AAAA   (1)3(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:43 PM 0824 PACKET  00000085E4A93850 UDP Snd 10.11.11.30     249b R Q [8081   DR  NOERROR] AAAA   (1)3(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:43 PM 0824 PACKET  00000085E4405D80 UDP Rcv 10.120.0.53     81f7 R Q [8081   DR  NOERROR] A      (1)3(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:43 PM 0824 PACKET  00000085E456D5B0 UDP Snd 10.11.11.30     257e R Q [8081   DR  NOERROR] A      (1)3(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:44 PM 0824 PACKET  00000085E4578410 UDP Rcv 10.11.11.30     d730   Q [0001   D   NOERROR] A      (3)ntp(6)ubuntu(3)com(0)
+
+4/18/2021 11:49:44 PM 0824 PACKET  00000085E4578410 UDP Snd 10.11.11.30     d730 R Q [8081   DR  NOERROR] A      (3)ntp(6)ubuntu(3)com(0)
+
+4/18/2021 11:49:44 PM 0828 PACKET  00000085E2ED3D30 UDP Rcv 10.11.11.30     66db   Q [0001   D   NOERROR] AAAA   (3)ntp(6)ubuntu(3)com(0)
+
+4/18/2021 11:49:44 PM 0828 PACKET  00000085E2ED3D30 UDP Snd 10.11.11.30     66db R Q [8081   DR  NOERROR] AAAA   (3)ntp(6)ubuntu(3)com(0)
+
+4/18/2021 11:49:44 PM 0828 PACKET  00000085E4405D80 UDP Rcv 10.11.11.30     b1a1   Q [0001   D   NOERROR] A      (1)0(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:44 PM 0828 PACKET  00000085E4405D80 UDP Snd 10.11.11.30     b1a1 R Q [8081   DR  NOERROR] A      (1)0(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:44 PM 0824 PACKET  00000085E4578410 UDP Rcv 10.11.11.30     514d   Q [0001   D   NOERROR] AAAA   (1)0(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:44 PM 0824 PACKET  00000085E4578410 UDP Snd 10.11.11.30     514d R Q [8081   DR  NOERROR] AAAA   (1)0(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:44 PM 0824 PACKET  00000085E32124B0 UDP Rcv 127.0.0.1       aba3   Q [0001   D   NOERROR] A      (8)3cbeddbe(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:44 PM 0824 PACKET  00000085E456D5B0 UDP Snd 10.120.0.53     770c   Q [0001   D   NOERROR] A      (8)3cbeddbe(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:44 PM 0824 PACKET  00000085E37CB1C0 UDP Rcv 127.0.0.1       c51b   Q [0001   D   NOERROR] A      (8)4a18d5ba(3)cdn(10)ndgnetlabs(3)com(0)
+
+4/18/2021 11:49:44 PM 0824 PACKET  00000085E4A93850 UDP Snd 10.120.0.53     1d69   Q [0001   D   NOERROR] A      (8)4a18d5ba(3)cdn(10)ndgnetlabs(3)com(0)
+
+4/18/2021 11:49:45 PM 0824 PACKET  00000085E4578410 UDP Rcv 127.0.0.1       99ba   Q [0001   D   NOERROR] A      (5)check(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:45 PM 0824 PACKET  00000085E488B850 UDP Snd 10.120.0.53     eedd   Q [0001   D   NOERROR] A      (5)check(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:45 PM 0824 PACKET  00000085E2ED3D30 UDP Rcv 10.11.11.30     03f3   Q [0001   D   NOERROR] A      (1)1(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:45 PM 0824 PACKET  00000085E2ED3D30 UDP Snd 10.11.11.30     03f3 R Q [8081   DR  NOERROR] A      (1)1(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:45 PM 0828 PACKET  00000085E4405D80 UDP Rcv 10.11.11.30     6831   Q [0001   D   NOERROR] AAAA   (1)1(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:45 PM 0828 PACKET  00000085E4405D80 UDP Snd 10.11.11.30     6831 R Q [8081   DR  NOERROR] AAAA   (1)1(6)ubuntu(4)pool(3)ntp(3)org(0)
+
+4/18/2021 11:49:45 PM 0828 PACKET  00000085E36FF070 UDP Rcv 127.0.0.1       aba3   Q [0001   D   NOERROR] A      (8)3cbeddbe(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:45 PM 0828 PACKET  00000085E3711310 UDP Rcv 127.0.0.1       c51b   Q [0001   D   NOERROR] A      (8)4a18d5ba(3)cdn(10)ndgnetlabs(3)com(0)
+
+4/18/2021 11:49:46 PM 0828 PACKET  00000085E4405D80 UDP Rcv 127.0.0.1       99ba   Q [0001   D   NOERROR] A      (5)check(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:46 PM 0828 PACKET  00000085E36FF070 UDP Rcv 127.0.0.1       aba3   Q [0001   D   NOERROR] A      (8)3cbeddbe(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:46 PM 0828 PACKET  00000085E3711310 UDP Rcv 127.0.0.1       c51b   Q [0001   D   NOERROR] A      (8)4a18d5ba(3)cdn(10)ndgnetlabs(3)com(0)
+
+4/18/2021 11:49:47 PM 0828 PACKET  00000085E4405D80 UDP Rcv 127.0.0.1       99ba   Q [0001   D   NOERROR] A      (5)check(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:47 PM 05D0 PACKET  00000085E32124B0 UDP Snd 127.0.0.1       aba3 R Q [8281   DR SERVFAIL] A      (8)3cbeddbe(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:47 PM 05D0 PACKET  00000085E37CB1C0 UDP Snd 127.0.0.1       c51b R Q [8281   DR SERVFAIL] A      (8)4a18d5ba(3)cdn(10)ndgnetlabs(3)com(0)
+
+4/18/2021 11:49:47 PM 05D0 PACKET  00000085E4578410 UDP Snd 127.0.0.1       99ba R Q [8281   DR SERVFAIL] A      (5)check(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:49 PM 0828 PACKET  00000085E36FF070 UDP Rcv 127.0.0.1       6bb3   Q [0001   D   NOERROR] A      (8)1e247cf6(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:49 PM 0828 PACKET  00000085E488B850 UDP Snd 10.120.0.53     9ae1   Q [0001   D   NOERROR] A      (8)1e247cf6(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:50 PM 0828 PACKET  00000085E3711310 UDP Rcv 127.0.0.1       6bb3   Q [0001   D   NOERROR] A      (8)1e247cf6(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:50 PM 0828 PACKET  00000085E4578410 UDP Rcv 127.0.0.1       e1a7   Q [0001   D   NOERROR] A      (8)51ed65fa(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:50 PM 0828 PACKET  00000085E4A93850 UDP Snd 10.120.0.53     c51b   Q [0001   D   NOERROR] A      (8)51ed65fa(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:50 PM 0828 PACKET  00000085E4486070 UDP Rcv 10.120.0.53     5c4c R Q [8281   DR SERVFAIL] A      (8)1e247cf6(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:50 PM 0828 PACKET  Response packet 00000085E4486070 does not match any outstanding query
+4/18/2021 11:49:51 PM 0828 PACKET  00000085E37CB1C0 UDP Rcv 127.0.0.1       6bb3   Q [0001   D   NOERROR] A      (8)1e247cf6(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:51 PM 0828 PACKET  00000085E3711310 UDP Rcv 127.0.0.1       e1a7   Q [0001   D   NOERROR] A      (8)51ed65fa(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:52 PM 0828 PACKET  00000085E4486070 UDP Rcv 127.0.0.1       e1a7   Q [0001   D   NOERROR] A      (8)51ed65fa(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:53 PM 0828 PACKET  00000085E37CB1C0 UDP Rcv 127.0.0.1       6bb3   Q [0001   D   NOERROR] A      (8)1e247cf6(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:53 PM 05D0 PACKET  00000085E36FF070 UDP Snd 127.0.0.1       6bb3 R Q [8281   DR SERVFAIL] A      (8)1e247cf6(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:53 PM 0828 PACKET  00000085E3AFB700 UDP Rcv 10.120.0.53     1d69 R Q [8281   DR SERVFAIL] A      (8)4a18d5ba(3)cdn(10)ndgnetlabs(3)com(0)
+
+4/18/2021 11:49:53 PM 0828 PACKET  Response packet 00000085E3AFB700 does not match any outstanding query
+4/18/2021 11:49:53 PM 0828 PACKET  00000085E37081C0 UDP Rcv 10.120.0.53     4521 R Q [8281   DR SERVFAIL] A      (8)51ed65fa(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:53 PM 0828 PACKET  Response packet 00000085E37081C0 does not match any outstanding query
+4/18/2021 11:49:54 PM 0828 PACKET  00000085E28F8D80 UDP Rcv 10.120.0.53     eedd R Q [8281   DR SERVFAIL] A      (5)check(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:54 PM 0828 PACKET  Response packet 00000085E28F8D80 does not match any outstanding query
+4/18/2021 11:49:54 PM 0828 PACKET  00000085E3711310 UDP Rcv 127.0.0.1       e1a7   Q [0001   D   NOERROR] A      (8)51ed65fa(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:55 PM 05D0 PACKET  00000085E4578410 UDP Snd 127.0.0.1       e1a7 R Q [8281   DR SERVFAIL] A      (8)51ed65fa(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:55 PM 0828 PACKET  00000085E48D1F80 UDP Rcv 10.120.0.53     770c R Q [8281   DR SERVFAIL] A      (8)3cbeddbe(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:55 PM 0828 PACKET  Response packet 00000085E48D1F80 does not match any outstanding query
+4/18/2021 11:49:56 PM 0828 PACKET  00000085E4486070 UDP Rcv 127.0.0.1       35c0   Q [0001   D   NOERROR] A      (5)check(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:56 PM 0828 PACKET  00000085E4A93850 UDP Snd 10.120.0.53     3857   Q [0001   D   NOERROR] A      (5)check(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:57 PM 0828 PACKET  00000085E28F8D80 UDP Rcv 127.0.0.1       ae5b   Q [0001   D   NOERROR] A      (8)3cbeddbe(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:57 PM 0828 PACKET  00000085E488B850 UDP Snd 10.120.0.53     92c1   Q [0001   D   NOERROR] A      (8)3cbeddbe(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:57 PM 0828 PACKET  00000085E48D1F80 UDP Rcv 127.0.0.1       35c0   Q [0001   D   NOERROR] A      (5)check(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:57 PM 0828 PACKET  00000085E3711310 UDP Rcv 127.0.0.1       f79a   Q [0001   D   NOERROR] A      (8)4a18d5ba(4)poop(10)ndgnetlabs(3)com(0)
+
+4/18/2021 11:49:57 PM 0828 PACKET  00000085E456D5B0 UDP Snd 10.120.0.53     5361   Q [0001   D   NOERROR] A      (8)4a18d5ba(4)poop(10)ndgnetlabs(3)com(0)
+
+4/18/2021 11:49:58 PM 0828 PACKET  00000085E37CB1C0 UDP Rcv 127.0.0.1       ae5b   Q [0001   D   NOERROR] A      (8)3cbeddbe(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:58 PM 0828 PACKET  00000085E48D1F80 UDP Rcv 127.0.0.1       35c0   Q [0001   D   NOERROR] A      (5)check(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:58 PM 0828 PACKET  00000085E4405D80 UDP Rcv 127.0.0.1       f79a   Q [0001   D   NOERROR] A      (8)4a18d5ba(4)poop(10)ndgnetlabs(3)com(0)
+
+4/18/2021 11:49:59 PM 0828 PACKET  00000085E37CB1C0 UDP Rcv 127.0.0.1       ae5b   Q [0001   D   NOERROR] A      (8)3cbeddbe(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:59 PM 05D0 PACKET  00000085E4486070 UDP Snd 127.0.0.1       35c0 R Q [8281   DR SERVFAIL] A      (5)check(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:49:59 PM 0828 PACKET  00000085E48D1F80 UDP Rcv 127.0.0.1       f79a   Q [0001   D   NOERROR] A      (8)4a18d5ba(4)poop(10)ndgnetlabs(3)com(0)
+
+4/18/2021 11:50:00 PM 05D0 PACKET  00000085E28F8D80 UDP Snd 127.0.0.1       ae5b R Q [8281   DR SERVFAIL] A      (8)3cbeddbe(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:50:01 PM 05D0 PACKET  00000085E3711310 UDP Snd 127.0.0.1       f79a R Q [8281   DR SERVFAIL] A      (8)4a18d5ba(4)poop(10)ndgnetlabs(3)com(0)
+
+4/18/2021 11:50:03 PM 0828 PACKET  00000085E4405D80 UDP Rcv 127.0.0.1       f746   Q [0001   D   NOERROR] A      (8)1e247cf6(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:50:03 PM 0828 PACKET  00000085E456D5B0 UDP Snd 10.120.0.53     2153   Q [0001   D   NOERROR] A      (8)1e247cf6(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:50:03 PM 0828 PACKET  00000085E42569F0 UDP Rcv 10.120.0.53     9ae1 R Q [8281   DR SERVFAIL] A      (8)1e247cf6(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:50:03 PM 0828 PACKET  Response packet 00000085E42569F0 does not match any outstanding query
+4/18/2021 11:50:04 PM 0828 PACKET  00000085E4486070 UDP Rcv 127.0.0.1       f746   Q [0001   D   NOERROR] A      (8)1e247cf6(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:50:04 PM 0828 PACKET  00000085E3A58BE0 UDP Rcv 10.120.0.53     c51b R Q [8281   DR SERVFAIL] A      (8)51ed65fa(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:50:04 PM 0828 PACKET  Response packet 00000085E3A58BE0 does not match any outstanding query
+4/18/2021 11:50:04 PM 0828 PACKET  00000085E3711310 UDP Rcv 127.0.0.1       f2ae   Q [0001   D   NOERROR] A      (8)51ed65fa(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:50:04 PM 0828 PACKET  00000085E488B850 UDP Snd 10.120.0.53     789b   Q [0001   D   NOERROR] A      (8)51ed65fa(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:50:05 PM 0828 PACKET  00000085E42569F0 UDP Rcv 127.0.0.1       f746   Q [0001   D   NOERROR] A      (8)1e247cf6(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:50:05 PM 05D0 PACKET  00000085E4405D80 UDP Snd 127.0.0.1       f746 R Q [8281   DR SERVFAIL] A      (8)1e247cf6(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:50:05 PM 0828 PACKET  00000085E3A58BE0 UDP Rcv 127.0.0.1       f2ae   Q [0001   D   NOERROR] A      (8)51ed65fa(3)dns(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:50:06 PM 0828 PACKET  00000085E43DAA40 UDP Rcv 10.120.0.53     3857 R Q [8281   DR SERVFAIL] A      (5)check(13)windowsupdate(5)cloud(0)
+
+4/18/2021 11:50:06 PM 0828 PACKET  Response packet 00000085E43DAA40 does not match any outstanding query
+4/18/2021 11:50:06 PM 0824 PACKET  00000085E26F7020 UDP Rcv 10.120.0.53     5361 R Q [8281   DR SERVFAIL] A      (8)4a18d5ba(4)poop(10)ndgnetlabs(3)com(0)
+
+4/18/2021 11:50:06 PM 0824 PACKET  Response packet 00000085E26F7020 does not match any outstanding query
+4/18/2021 11:50:06 PM 0824 PACKET  00000085E48D1F80 UDP Rcv 127.0.0.1       f2ae   Q [0001   D   NOERROR] A      (8)51ed65fa(3)dns(13)windowsupdate(5)cloud(0)
